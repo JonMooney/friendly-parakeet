@@ -42,7 +42,6 @@ function generatePassword(){
   // Front loads the password string with a single requested character type
   // Ensures that the password string will have at least one of each user requested character type
   // Builds the allowed character string for use in randomly generating characters later (for loop)
-  //if(incLowercase){
   if(lowercase){
     tempstr = "abcdefghijklmnopqrstuvwxyz";
     password += tempstr[Math.floor(Math.random() * tempstr.length)];
