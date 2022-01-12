@@ -11,7 +11,7 @@ Visit the live site at the following URL:<br>
 
 Use the 'Generate Password' button to try making different passwords of varying lengths and character types.
 
-### Screenshot: Overall look
+### Screenshot:
 <img src="./assets/images/screenshot.jpg" width="700" alt="screenshot of password generator" />
 
 ## Features
