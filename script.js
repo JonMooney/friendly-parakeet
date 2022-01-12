@@ -81,9 +81,9 @@ function generatePassword(){
 // Ask user what character types they want included in the password
 function characterTypes(){
   lowercase = confirm("Should the password include lowercase letters? OK-Yes | Cancel-No");
-  uppercase = confirm("Should the password include uppercase letters?");
-  numeric = confirm("Should the password include numeric characters?");
-  special = confirm("Should the password include special characters?");
+  uppercase = confirm("Should the password include uppercase letters? OK-Yes | Cancel-No");
+  numeric = confirm("Should the password include numeric characters? OK-Yes | Cancel-No");
+  special = confirm("Should the password include special characters? OK-Yes | Cancel-No");
 
   // If at least one character type wasn't entered, rerun this function
   if(!lowercase && !uppercase && !numeric && !special){
